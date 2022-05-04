@@ -45,8 +45,8 @@ if (isset($_SESSION['user_id'])) {
          </div>
 
          <div class="content">
-            <h3>why choose us?</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam veritatis minus et similique doloribus? Harum molestias tenetur eaque illum quas? Obcaecati nulla in itaque modi magnam ipsa molestiae ullam consequuntur.</p>
+            <h3>Why choose us?</h3>
+            <p>We offer you the good quality products with reasonable prices</p>
             <a href="contact.php" class="btn">Contact us</a>
          </div>
 
@@ -64,7 +64,7 @@ if (isset($_SESSION['user_id'])) {
 
             <div class="swiper-slide slide">
                <img src="images/pic-1.png" alt="">
-               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia tempore distinctio hic, iusto adipisci a rerum nemo perspiciatis fugiat sapiente.</p>
+               <p>I was looking for shop selling quality products at reasonable prices. Now I found one 😎</p>
                <div class="stars">
                   <i class="fas fa-star"></i>
                   <i class="fas fa-star"></i>
@@ -72,12 +72,12 @@ if (isset($_SESSION['user_id'])) {
                   <i class="fas fa-star"></i>
                   <i class="fas fa-star-half-alt"></i>
                </div>
-               <h3>john deo</h3>
+               <h3>Mark</h3>
             </div>
 
             <div class="swiper-slide slide">
                <img src="images/pic-2.png" alt="">
-               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia tempore distinctio hic, iusto adipisci a rerum nemo perspiciatis fugiat sapiente.</p>
+               <p>The shop has the best quality we need. Come to G6 and enjoy the moment you shopping</p>
                <div class="stars">
                   <i class="fas fa-star"></i>
                   <i class="fas fa-star"></i>
@@ -85,12 +85,12 @@ if (isset($_SESSION['user_id'])) {
                   <i class="fas fa-star"></i>
                   <i class="fas fa-star-half-alt"></i>
                </div>
-               <h3>john deo</h3>
+               <h3>Layla</h3>
             </div>
 
             <div class="swiper-slide slide">
                <img src="images/pic-3.png" alt="">
-               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia tempore distinctio hic, iusto adipisci a rerum nemo perspiciatis fugiat sapiente.</p>
+               <p>Good products with cheap price. The best shop I'm looking for. Love you guys. I will comeback to G6 soon 😘</p>
                <div class="stars">
                   <i class="fas fa-star"></i>
                   <i class="fas fa-star"></i>
@@ -98,12 +98,12 @@ if (isset($_SESSION['user_id'])) {
                   <i class="fas fa-star"></i>
                   <i class="fas fa-star-half-alt"></i>
                </div>
-               <h3>john deo</h3>
+               <h3>Daniel</h3>
             </div>
 
             <div class="swiper-slide slide">
                <img src="images/pic-4.png" alt="">
-               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia tempore distinctio hic, iusto adipisci a rerum nemo perspiciatis fugiat sapiente.</p>
+               <p>Love this shop. Always rooting for you guys to sell the best goods at best price. I will order yours goods soon 😚</p>
                <div class="stars">
                   <i class="fas fa-star"></i>
                   <i class="fas fa-star"></i>
@@ -111,12 +111,12 @@ if (isset($_SESSION['user_id'])) {
                   <i class="fas fa-star"></i>
                   <i class="fas fa-star-half-alt"></i>
                </div>
-               <h3>john deo</h3>
+               <h3>Maria</h3>
             </div>
 
             <div class="swiper-slide slide">
                <img src="images/pic-5.png" alt="">
-               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia tempore distinctio hic, iusto adipisci a rerum nemo perspiciatis fugiat sapiente.</p>
+               <p>One word to describe this shop: Excellent. You guys really really really amazed me. Keep it up!!</p>
                <div class="stars">
                   <i class="fas fa-star"></i>
                   <i class="fas fa-star"></i>
@@ -124,12 +124,12 @@ if (isset($_SESSION['user_id'])) {
                   <i class="fas fa-star"></i>
                   <i class="fas fa-star-half-alt"></i>
                </div>
-               <h3>john deo</h3>
+               <h3>Frank</h3>
             </div>
 
             <div class="swiper-slide slide">
                <img src="images/pic-6.png" alt="">
-               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia tempore distinctio hic, iusto adipisci a rerum nemo perspiciatis fugiat sapiente.</p>
+               <p>The best shop I have ever been visited. The atmosphere, design, and products are really fantastic. Good jobs guys </p>
                <div class="stars">
                   <i class="fas fa-star"></i>
                   <i class="fas fa-star"></i>
@@ -137,7 +137,7 @@ if (isset($_SESSION['user_id'])) {
                   <i class="fas fa-star"></i>
                   <i class="fas fa-star-half-alt"></i>
                </div>
-               <h3>john deo</h3>
+               <h3>Emily</h3>
             </div>
 
          </div>
