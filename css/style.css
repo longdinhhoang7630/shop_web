@@ -987,9 +987,87 @@ section{
    color:var(--main-color);
 }
 
+/* The Modal (background) */
+.modal {
+   position: fixed;/* Stay in place */
+   z-index: 1;/* Sit on top */
+   left: 0;
+   top: 0;
+   width: 100%;/* Full width */
+   height: 100%;/* Full height */
+   overflow: auto;/* Enable scroll if needed */
+   background-color: rgb(0, 0, 0);/* Fallback color */
+   background-color: rgba(0, 0, 0, 0.4);/* Black w/ opacity */
+   padding-top: 0px;
+}
 
+/* Modal Content/Box */
+.modal-content {
+   background-color: #fefefe;
+   margin: 2% auto 10% auto;
+   /* 5% from the top, 15% from the bottom and centered */
+   border: 1px solid #888;
+   width: 40%;
+   /* Could be more or less, depending on screen size */
+   border-radius: 20px;
+}
 
+/* Add Zoom Animation */
+.animate {
+   -webkit-animation: animatezoom 0.6s;
+   animation: animatezoom 0.6s
+}
 
+@-webkit-keyframes animatezoom {
+   from {
+      -webkit-transform: scale(0)
+   }
+
+   to {
+      -webkit-transform: scale(1)
+   }
+}
+
+@keyframes animatezoom {
+   from {
+      transform: scale(0)
+   }
+
+   to {
+      transform: scale(1)
+   }
+}
+
+.w3-button{
+   border:none;
+   margin-top: 8px;
+   margin-right: 3px;
+   border-radius: 3px;
+   display:inline-block;
+   padding:8px 16px;
+   vertical-align:middle;
+   overflow:hidden;
+   text-decoration:none;
+   color:inherit;
+   background-color:inherit;
+   text-align:center;
+   cursor:pointer;
+   white-space:nowrap;
+}
+
+.w3-red{
+   color:#fff !important;
+   background-color:#f44336 !important
+}
+
+.w3-blue{
+   color:#fff !important;
+   background-color:#2196F3 !important
+}
+.container {
+   padding: 5% 10%;
+   border-radius: 20px;
+}
 
 
 @media (max-width:991px){

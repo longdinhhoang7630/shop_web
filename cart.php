@@ -80,7 +80,7 @@ if (isset($_POST['update_qty'])) {
                      <button type="submit" class="fas fa-edit" name="update_qty"></button>
                   </div>
                   <div class="sub-total"> sub total : <span>$<?= $sub_total = ($fetch_cart['price'] * $fetch_cart['quantity']); ?>/-</span> </div>
-                  <input type="submit" value="delete item" onclick="return confirm('delete this from cart?');" class="delete-btn" name="delete">
+                  <input type="submit" value="delete item" onclick="return confirm('Delete this from cart?');" class="delete-btn" name="delete">
                </form>
          <?php
                $grand_total += $sub_total;
@@ -94,7 +94,7 @@ if (isset($_POST['update_qty'])) {
       <div class="cart-total">
          <p>grand total : <span>$<?= $grand_total; ?>/-</span></p>
          <a href="shop.php" class="option-btn">continue shopping</a>
-         <a href="cart.php?delete_all" class="delete-btn <?= ($grand_total > 1) ? '' : 'disabled'; ?>" onclick="return confirm('delete all from cart?');">delete all item</a>
+         <a href="cart.php?delete_all" class="delete-btn <?= ($grand_total > 1) ? '' : 'disabled'; ?>" onclick="return confirm('Delete all from cart?');">delete all item</a>
          <a href="checkout.php" class="btn <?= ($grand_total > 1) ? '' : 'disabled'; ?>">proceed to checkout</a>
       </div>
 

@@ -62,7 +62,7 @@ if (isset($_POST['submit'])) {
          <input type="password" name="pass" required placeholder="enter your password" maxlength="20" class="box" oninput="this.value = this.value.replace(/\s/g, '')">
          <input type="submit" value="login now" class="btn" name="submit">
          <p>Don't have an account?</p>
-         <a href="user_register.php" class="option-btn">Register now</a>
+         <a href="user_register.php" class="option-btn">Sign up now</a>
       </form>
 
    </section>

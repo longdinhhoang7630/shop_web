@@ -65,7 +65,7 @@ if (isset($_POST['submit'])) {
    <section class="form-container">
 
       <form action="" method="post">
-         <h3>Register now</h3>
+         <h3>Sign up now</h3>
          <input type="text" name="name" required placeholder="enter your username" maxlength="20" class="box">
          <input type="email" name="email" required placeholder="enter your email" maxlength="50" class="box" oninput="this.value = this.value.replace(/\s/g, '')">
          <input type="password" name="pass" required placeholder="enter your password" maxlength="20" class="box" oninput="this.value = this.value.replace(/\s/g, '')">

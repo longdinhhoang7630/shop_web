@@ -15,7 +15,7 @@ if (isset($message)) {
 
    <section class="flex">
 
-      <a href="index.php" class="logo">G6Shop</a>
+      <a href="index.php" class="logo">G6 Shop</a>
 
       <nav class="navbar">
          <a href="index.php">Home</a>
@@ -55,20 +55,31 @@ if (isset($message)) {
             <a href="user_register.php" class="option-btn">register</a>
             <a href="user_login.php" class="option-btn">login</a>
          </div> -->
-            <a href="components/user_logout.php" class="delete-btn" onclick="return confirm('Logout from the website?');">logout</a>
+            <a class="delete-btn" onclick="document.getElementById('id04').style.display='block'">logout</a>
          <?php
          } else {
          ?>
             <p>Please login or register first!</p>
-            <div class="flex-btn">
+            <div class=" flex-btn">
                <a href="user_register.php" class="option-btn">register</a>
                <a href="user_login.php" class="option-btn">login</a>
-            </div>
-         <?php
-         }
-         ?>
-
       </div>
+   <?php
+         }
+   ?>
+
+   </div>
+   <div id="id04" class="modal" style="display: none;">
+      <form class="modal-content animate">
+         <div class="container">
+            <h2>Are you sure to logout?</h2>
+            <div>
+               <a class="w3-button w3-red" href='components/user_logout.php'>Yes</a>
+               <a class="w3-button w3-blue" onclick="document.getElementById('id04').style.display='none'">No</a>
+            </div>
+         </div>
+      </form>
+   </div>
 
    </section>
 
