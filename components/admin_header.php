@@ -1,14 +1,14 @@
 <?php
-   if(isset($message)){
-      foreach($message as $message){
-         echo '
+if (isset($message)) {
+   foreach ($message as $message) {
+      echo '
          <div class="message">
-            <span>'.$message.'</span>
+            <span>' . $message . '</span>
             <i class="fas fa-times" onclick="this.parentElement.remove();"></i>
          </div>
          ';
-      }
    }
+}
 ?>
 
 <header class="header">
@@ -33,9 +33,9 @@
 
       <div class="profile">
          <?php
-            $select_profile = $conn->prepare("SELECT * FROM `admins` WHERE id = ?");
-            $select_profile->execute([$admin_id]);
-            $fetch_profile = $select_profile->fetch(PDO::FETCH_ASSOC);
+         $select_profile = $conn->prepare("SELECT * FROM `admins` WHERE id = ?");
+         $select_profile->execute([$admin_id]);
+         $fetch_profile = $select_profile->fetch(PDO::FETCH_ASSOC);
          ?>
          <p><?= $fetch_profile['name']; ?></p>
          <a href="../admin/update_profile.php" class="btn">update profile</a>
@@ -43,9 +43,20 @@
             <a href="../admin/register_admin.php" class="option-btn">register</a>
             <a href="../admin/admin_login.php" class="option-btn">login</a>
          </div> -->
-         <a href="../components/admin_logout.php" class="delete-btn" onclick="return confirm('Logout from the website?');">logout</a> 
+         <a class="delete-btn" onclick="document.getElementById('id05').style.display='block'">logout</a>
       </div>
 
+      <div id="id05" class="modal" style="display: none;">
+         <form class="modal-content animate">
+            <div class="conta">
+               <h1>Are you sure to logout?</h1>
+               <div>
+                  <a class="w3-button w3-red" href="../components/admin_logout.php">Yes</a>
+                  <a class="w3-button w3-blue" onclick="document.getElementById('id05').style.display='none'">No</a>
+               </div>
+            </div>
+         </form>
+      </div>
    </section>
 
 </header>

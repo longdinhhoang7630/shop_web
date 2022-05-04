@@ -72,7 +72,7 @@ if (isset($message)) {
    <div id="id04" class="modal" style="display: none;">
       <form class="modal-content animate">
          <div class="container">
-            <h2>Are you sure to logout?</h2>
+            <h1>Are you sure to logout?</h1>
             <div>
                <a class="w3-button w3-red" href='components/user_logout.php'>Yes</a>
                <a class="w3-button w3-blue" onclick="document.getElementById('id04').style.display='none'">No</a>
