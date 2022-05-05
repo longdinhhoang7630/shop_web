@@ -51,8 +51,8 @@ include 'components/wishlist_cart.php';
                   </div>
                   <div class="content">
                      <span>upto 50% off</span>
-                     <h3>latest smartphones</h3>
-                     <a href="shop.php" class="btn">shop now</a>
+                     <h3>Best smartphones</h3>
+                     <a href="./shop.php" class="btn">shop now</a>
                   </div>
                </div>
 
@@ -62,8 +62,8 @@ include 'components/wishlist_cart.php';
                   </div>
                   <div class="content">
                      <span>upto 50% off</span>
-                     <h3>latest watches</h3>
-                     <a href="shop.php" class="btn">shop now</a>
+                     <h3>Best watches</h3>
+                     <a href="./shop.php" class="btn">shop now</a>
                   </div>
                </div>
 
@@ -73,8 +73,8 @@ include 'components/wishlist_cart.php';
                   </div>
                   <div class="content">
                      <span>upto 50% off</span>
-                     <h3>latest headsets</h3>
-                     <a href="shop.php" class="btn">shop now</a>
+                     <h3>Best headsets</h3>
+                     <a href="./shop.php" class="btn">shop now</a>
                   </div>
                </div>
 
@@ -96,44 +96,49 @@ include 'components/wishlist_cart.php';
 
          <div class="swiper-wrapper">
 
-            <a href="category.php?category=laptop" class="swiper-slide slide">
+            <a href="./category.php?category=laptop" class="swiper-slide slide">
                <img src="images/icon-1.png" alt="">
                <h3>Laptop</h3>
             </a>
 
-            <a href="category.php?category=tv" class="swiper-slide slide">
+            <a href="./category.php?category=tv" class="swiper-slide slide">
                <img src="images/icon-2.png" alt="">
                <h3>TV</h3>
             </a>
 
-            <a href="category.php?category=camera" class="swiper-slide slide">
+            <a href="./category.php?category=camera" class="swiper-slide slide">
                <img src="images/icon-3.png" alt="">
                <h3>Camera</h3>
             </a>
 
-            <a href="category.php?category=mouse" class="swiper-slide slide">
+            <a href="./category.php?category=mouse" class="swiper-slide slide">
                <img src="images/icon-4.png" alt="">
                <h3>Mouse</h3>
             </a>
 
-            <a href="category.php?category=fridge" class="swiper-slide slide">
+            <a href="./category.php?category=fridge" class="swiper-slide slide">
                <img src="images/icon-5.png" alt="">
                <h3>Fridge</h3>
             </a>
 
-            <a href="category.php?category=washing" class="swiper-slide slide">
+            <a href="./category.php?category=washing" class="swiper-slide slide">
                <img src="images/icon-6.png" alt="">
                <h3>Washing machine</h3>
             </a>
 
-            <a href="category.php?category=smartphone" class="swiper-slide slide">
+            <a href="./category.php?category=smartphone" class="swiper-slide slide">
                <img src="images/icon-7.png" alt="">
                <h3>Smartphone</h3>
             </a>
 
-            <a href="category.php?category=watch" class="swiper-slide slide">
+            <a href="./category.php?category=watch" class="swiper-slide slide">
                <img src="images/icon-8.png" alt="">
                <h3>Watch</h3>
+            </a>
+
+            <a href="./category.php?category=headset" class="swiper-slide slide">
+               <img src="images/icon-9.png" alt="">
+               <h3>Headset</h3>
             </a>
 
          </div>
@@ -167,10 +172,11 @@ include 'components/wishlist_cart.php';
                      <img src="uploaded_img/<?= $fetch_product['image_01']; ?>" alt="">
                      <div class="name"><?= $fetch_product['name']; ?></div>
                      <div class="flex">
-                       <p class="name">Price: </p> <div class="price"><span>$</span><?= $fetch_product['price']; ?><span>/-</span></div>
+                        <p class="name">Price: </p>
+                        <div class="price"><span>$</span><?= $fetch_product['price']; ?><span>/-</span></div>
                         <!-- <input type="number" name="qty" class="qty" min="1" max="99" onkeypress="if(this.value.length == 2) return false;" value="1"> -->
                      </div>
-                     <a href="quick_view.php?pid=<?= $fetch_product['id']; ?>" class="btn">View</a>
+                     <a href="./quick_view.php?pid=<?= $fetch_product['id']; ?>" class="btn">View</a>
                      <!-- <input type="submit" value="add to cart" class="btn" name="add_to_cart"> -->
                   </form>
             <?php

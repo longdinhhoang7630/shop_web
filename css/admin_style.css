@@ -668,6 +668,14 @@ section{
       margin:2rem;
    }
 
+   .modal-content {
+      position: absolute;
+      left: 50%;
+      top: 50%;
+      transform: translate(-50%, -50%);
+      width: 80%;
+   }
+
 }
 
 @media (max-width:450px){
@@ -703,6 +711,14 @@ section{
 
    .contacts .box-container{
       grid-template-columns: 1fr;
+   }
+
+   .modal-content {
+      position: absolute;
+      left: 50%;
+      top: 50%;
+      transform: translate(-50%, -50%);
+      width: 80%;
    }
 
 }

@@ -47,7 +47,7 @@ if (isset($_SESSION['user_id'])) {
          <div class="content">
             <h3>Why choose us?</h3>
             <p>We offer you the good quality products with reasonable prices</p>
-            <a href="contact.php" class="btn">Contact us</a>
+            <a href="./contact.php" class="btn">Contact us</a>
          </div>
 
       </div>
@@ -63,7 +63,7 @@ if (isset($_SESSION['user_id'])) {
          <div class="swiper-wrapper">
 
             <div class="swiper-slide slide">
-               <img src="images/pic-1.png" alt="">
+               <img src="images/us.webp" alt="">
                <p>I was looking for shop selling quality products at reasonable prices. Now I found one 😎</p>
                <div class="stars">
                   <i class="fas fa-star"></i>
@@ -76,7 +76,7 @@ if (isset($_SESSION['user_id'])) {
             </div>
 
             <div class="swiper-slide slide">
-               <img src="images/pic-2.png" alt="">
+               <img src="images/us.webp" alt="">
                <p>The shop has the best quality we need. Come to G6 and enjoy the moment you shopping</p>
                <div class="stars">
                   <i class="fas fa-star"></i>
@@ -89,7 +89,7 @@ if (isset($_SESSION['user_id'])) {
             </div>
 
             <div class="swiper-slide slide">
-               <img src="images/pic-3.png" alt="">
+               <img src="images/us.webp" alt="">
                <p>Good products with cheap price. The best shop I'm looking for. Love you guys. I will comeback to G6 soon 😘</p>
                <div class="stars">
                   <i class="fas fa-star"></i>
@@ -102,7 +102,7 @@ if (isset($_SESSION['user_id'])) {
             </div>
 
             <div class="swiper-slide slide">
-               <img src="images/pic-4.png" alt="">
+               <img src="images/us.webp" alt="">
                <p>Love this shop. Always rooting for you guys to sell the best goods at best price. I will order yours goods soon 😚</p>
                <div class="stars">
                   <i class="fas fa-star"></i>
@@ -115,7 +115,7 @@ if (isset($_SESSION['user_id'])) {
             </div>
 
             <div class="swiper-slide slide">
-               <img src="images/pic-5.png" alt="">
+               <img src="images/us.webp" alt="">
                <p>One word to describe this shop: Excellent. You guys really really really amazed me. Keep it up!!</p>
                <div class="stars">
                   <i class="fas fa-star"></i>
@@ -128,7 +128,7 @@ if (isset($_SESSION['user_id'])) {
             </div>
 
             <div class="swiper-slide slide">
-               <img src="images/pic-6.png" alt="">
+               <img src="images/us.webp" alt="">
                <p>The best shop I have ever been visited. The atmosphere, design, and products are really fantastic. Good jobs guys </p>
                <div class="stars">
                   <i class="fas fa-star"></i>
