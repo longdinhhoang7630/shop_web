@@ -178,6 +178,10 @@ section{
    color:var(--main-color);
 }
 
+.header .flex .logo:hover {
+   color:var(--orange);
+}
+
 .header .flex .navbar a{
    margin:0 1rem;
    font-size: 2rem;
@@ -185,7 +189,7 @@ section{
 }
 
 .header .flex .navbar a:hover{
-   color:var(--main-color);
+   color:var(--orange);
    /* text-decoration: none; */
 }
 
@@ -198,7 +202,7 @@ section{
 }
 
 .header .flex .icons > *:hover{
-   color:var(--main-color);
+   color:var(--orange);
 }
 
 .header .flex .icons a span{

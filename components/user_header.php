@@ -15,7 +15,9 @@ if (isset($message)) {
 
    <section class="flex">
 
-      <a href="index.php" class="logo">G6 Shop</a>
+      <a href="index.php" class="logo">G6 Shop
+         <!-- <img src="./images/g6_logo.jfif" width="40" height="40" alt=""> -->
+      </a>
 
       <nav class="navbar">
          <a href="index.php">Home</a>
@@ -63,23 +65,23 @@ if (isset($message)) {
             <div class=" flex-btn">
                <a href="user_register.php" class="option-btn">register</a>
                <a href="user_login.php" class="option-btn">login</a>
-      </div>
-   <?php
-         }
-   ?>
-
-   </div>
-   <div id="id04" class="modal" style="display: none;">
-      <form class="modal-content animate">
-         <div class="container">
-            <h1>Are you sure to logout?</h1>
-            <div>
-               <a class="w3-button w3-red" href='components/user_logout.php'>Yes</a>
-               <a class="w3-button w3-blue" onclick="document.getElementById('id04').style.display='none'">No</a>
             </div>
-         </div>
-      </form>
-   </div>
+         <?php
+         }
+         ?>
+
+      </div>
+      <div id="id04" class="modal" style="display: none;">
+         <form class="modal-content animate">
+            <div class="container">
+               <h1>Are you sure to logout?</h1>
+               <div>
+                  <a class="w3-button w3-red" href='components/user_logout.php'>Yes</a>
+                  <a class="w3-button w3-blue" onclick="document.getElementById('id04').style.display='none'">No</a>
+               </div>
+            </div>
+         </form>
+      </div>
 
    </section>
 

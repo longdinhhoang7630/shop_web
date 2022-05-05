@@ -46,7 +46,7 @@ if (isset($_SESSION['user_id'])) {
 
          <div class="content">
             <h3>Why choose us?</h3>
-            <p>We offer you the good quality products with reasonable prices</p>
+            <p style="font-size: x-large;">We offer you the good quality products with reasonable prices</p>
             <a href="./contact.php" class="btn">Contact us</a>
          </div>
 
@@ -56,7 +56,7 @@ if (isset($_SESSION['user_id'])) {
 
    <section class="reviews">
 
-      <h1 class="heading">Client's reviews</h1>
+      <h1 class="heading">Customer's reviews</h1>
 
       <div class="swiper reviews-slider">
 

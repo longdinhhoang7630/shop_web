@@ -47,7 +47,7 @@ include 'components/wishlist_cart.php';
 
                <div class="swiper-slide slide">
                   <div class="image">
-                     <img src="images/home-img-1.png" alt="">
+                     <img src="./images/home-img-1.png" alt="">
                   </div>
                   <div class="content">
                      <span>upto 50% off</span>
@@ -58,7 +58,7 @@ include 'components/wishlist_cart.php';
 
                <div class="swiper-slide slide">
                   <div class="image">
-                     <img src="images/home-img-2.png" alt="">
+                     <img src="./images/home-img-2.png" alt="">
                   </div>
                   <div class="content">
                      <span>upto 50% off</span>
@@ -69,7 +69,7 @@ include 'components/wishlist_cart.php';
 
                <div class="swiper-slide slide">
                   <div class="image">
-                     <img src="images/home-img-3.png" alt="">
+                     <img src="./images/home-img-3.png" alt="">
                   </div>
                   <div class="content">
                      <span>upto 50% off</span>
@@ -97,47 +97,47 @@ include 'components/wishlist_cart.php';
          <div class="swiper-wrapper">
 
             <a href="./category.php?category=laptop" class="swiper-slide slide">
-               <img src="images/icon-1.png" alt="">
+               <img src="./images/icon-1.png" alt="">
                <h3>Laptop</h3>
             </a>
 
             <a href="./category.php?category=tv" class="swiper-slide slide">
-               <img src="images/icon-2.png" alt="">
+               <img src="./images/icon-2.png" alt="">
                <h3>TV</h3>
             </a>
 
             <a href="./category.php?category=camera" class="swiper-slide slide">
-               <img src="images/icon-3.png" alt="">
+               <img src="./images/icon-3.png" alt="">
                <h3>Camera</h3>
             </a>
 
             <a href="./category.php?category=mouse" class="swiper-slide slide">
-               <img src="images/icon-4.png" alt="">
+               <img src="./images/icon-4.png" alt="">
                <h3>Mouse</h3>
             </a>
 
             <a href="./category.php?category=fridge" class="swiper-slide slide">
-               <img src="images/icon-5.png" alt="">
+               <img src="./images/icon-5.png" alt="">
                <h3>Fridge</h3>
             </a>
 
             <a href="./category.php?category=washing" class="swiper-slide slide">
-               <img src="images/icon-6.png" alt="">
+               <img src="./images/icon-6.png" alt="">
                <h3>Washing machine</h3>
             </a>
 
             <a href="./category.php?category=smartphone" class="swiper-slide slide">
-               <img src="images/icon-7.png" alt="">
+               <img src="./images/icon-7.png" alt="">
                <h3>Smartphone</h3>
             </a>
 
             <a href="./category.php?category=watch" class="swiper-slide slide">
-               <img src="images/icon-8.png" alt="">
+               <img src="./images/icon-8.png" alt="">
                <h3>Watch</h3>
             </a>
 
             <a href="./category.php?category=headset" class="swiper-slide slide">
-               <img src="images/icon-9.png" alt="">
+               <img src="./images/icon-9.png" alt="">
                <h3>Headset</h3>
             </a>
 
